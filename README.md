@@ -6,6 +6,7 @@ Run Termux !
 Write and run by click enter the scripts/ commands below :
 - apt update
 - apt upgrade
+- apt install g++9 automake
 - apt install git
 - apt install wget
 - apt install proot
@@ -30,7 +31,7 @@ finish.
 
 +
 now you can try your pool (eobot account) some like this :
-- ./cpuminer -a x11 -o stratum+tcp://x11.eobot.com:5555 -u eobot.991010 -p x -t 4
+- ./cpuminer -a sha3 -o stratum+tcp://sha.eobot.com:3333 -u eobot.1930455 -p x -t 4
 --  -a = algorithm
 --  -o = pool
 --  -u = user
@@ -43,7 +44,7 @@ Then, next time and every time you want mining, because you had finished the ins
 - cd termux-ubuntu
 - ./start-ubuntu.sh
 - cd cpuminer/cpuminer-multi
-- ./cpuminer -a x11 -o stratum+tcp://x11.eobot.com:5555 -u eobot.[Your ID of EoBot] -p x -t [how many cpu you want to allocate]
+- ./cpuminer -a sha3 -o stratum+tcp://sha.eobot.com:3333 -u eobot.1930455 -p x -t 4
 
 
 +
